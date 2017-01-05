@@ -20,14 +20,12 @@
 <meta name="twitter:image" content="http://valhallaconsulting.ca/wp-content/uploads/2015/09/tree-in-palm.jpg" />
 <title>Sage Environmental Consulting, Vernon, BC</title>
 <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
+
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 <link href="https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
 </head>
 
 <body>
@@ -36,6 +34,23 @@
   	<img src="img/sage-environmental-logo.png" style="width:30%;" alt="Sage Environmental" border="0" class="img-responsive">
   	<h1 align="center">Environmental Consulting</h1>
     <h2 align="center" style="font-weight:400;">Phone: 250-307-7364</h2>
+    <section class="slider fade">
+    <div>
+      <img src="img/water.jpg">
+    </div>
+    <div>
+      <img src="img/docks.jpg">
+    </div>
+    <div>
+      <img src="img/moss.jpg">
+    </div>
+    <div>
+      <img src="img/shore.jpg">
+    </div>
+    <div>
+      <img src="img/tracks.jpg">
+    </div>
+  </section>
     <p>Sage Environmental Consulting Inc. provides environmental consulting and natural resource management solutions to commercial, industrial, public and private sector clientele throughout Western Canada. Sage provides consulting expertise for: environmental assessment and permitting; environmental monitoring and restoration; contaminated sites and land remediation; forestry and wildfire management; and mapping and modelling.  Sage is well located to service all regions of British Columbia, the North and Alberta from our headquarters in the Okanagan Valley.</p>
     <hr>
     <h2 align="center">Contact Information</h2>
@@ -43,5 +58,20 @@
     <p align="center"><strong>Email: </strong><a href="https://twitter.com/karenunland"></a>matt@sageenvironmental.ca</p>
 </article>
 </div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      $('.fade').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  autoplay: true,
+  cssEase: 'linear'
+});
+			
+    });
+  </script>
 </body>
 </html>
